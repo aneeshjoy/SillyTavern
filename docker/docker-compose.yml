@@ -6,7 +6,7 @@ services:
     hostname: sillytavern
     image: sillytavern/sillytavern:latest
     ports:
-      - "8000:8000"
+      - "2000:8000"
     volumes:
       - "./config:/home/node/app/config"
       - "./config.conf:/home/node/app/config.conf"
