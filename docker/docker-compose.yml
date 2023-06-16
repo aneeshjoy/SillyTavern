@@ -4,6 +4,7 @@ services:
     build: ..
     container_name: sillytavern
     hostname: sillytavern
+    user: 1000:1000
     image: sillytavern/sillytavern:latest
     ports:
       - "2000:8000"
